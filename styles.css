@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.element {
+    transition: 1.3s;
+    /* transition: top 0.5s;
+    transition: left 0.5s; */
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#videoWrapper {
+    background: white;
+    border: solid 45px white;
+}
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+    height: 60px;
+    background: black;
+    color: white;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+}
